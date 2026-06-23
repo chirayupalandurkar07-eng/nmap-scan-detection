@@ -1,0 +1,7 @@
+## Detection Results
+
+| PCAP | Packets | Rule Fired | Result |
+|------|---------|------------|--------|
+| nmap_standard_scan | 2,004 | SID 9000001 | ✅ Detected |
+| nmap_OS_scan | 2,056 | SID 9000001 + 9000003 + 9000002 | ✅ Detected |
+| nmap_ACK_scan_on_port_80 | 6 | None | ⚠️ Evaded |
