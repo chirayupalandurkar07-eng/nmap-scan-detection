@@ -60,4 +60,11 @@ This is a documented gap in many production SOC environments.
 | T1595.001 | Active Scanning: Scanning IP Blocks |
 | T1595.002 | Active Scanning: Vulnerability Scanning |
 | T1046 | Network Service Discovery |
+---
+
+## Legal Notice
+
+All scanning activity conducted in an isolated VirtualBox 
+lab environment for educational purposes only. PCAP files 
+sourced from the Wireshark public sample capture library.
 
