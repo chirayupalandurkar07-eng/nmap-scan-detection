@@ -62,6 +62,16 @@ This is a documented gap in many production SOC environments.
 | T1046 | Network Service Discovery |
 ---
 
+---
+
+## Future Plans
+
+- [ ] Re-run all 5 scans in a properly isolated lab with confirmed VM-to-VM connectivity
+- [ ] Add FIN, NULL, and Xmas scan Suricata rules to the detection ruleset
+- [ ] Test slow-timing (-T1) scan detection using SIEM time-window correlation
+- [ ] Build a Splunk dashboard ingesting Suricata fast.log alerts
+- [ ] Investigate stateful detection approaches for low-volume ACK scan evasion
+
 ## Legal Notice
 
 All scanning activity conducted in an isolated VirtualBox 
